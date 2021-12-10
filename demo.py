@@ -211,8 +211,8 @@ def on_open(ws):
 if __name__ == "__main__":
     # global wsParam
     #此处是讯飞语音的api接口
-    wsParam = Ws_Param(APPID='03b54b81', APIKey='714f58a9fc5fccd12fa6cd9449214c89',
-                       APISecret='NGM5NTE2YTlmODExZDg1MGYyZjAyYzYz')
+    wsParam = Ws_Param(APPID='03bxxxxx', APIKey='714f58a9fc5fccd12fa6cd94492xxxxx',
+                       APISecret='NGM5NTE2YTlmODExZDg1MGYyZjxxxxx')
     websocket.enableTrace(False)
     wsUrl = wsParam.create_url()
     ws = websocket.WebSocketApp(wsUrl, on_message=on_message, on_error=on_error, on_close=on_close)
